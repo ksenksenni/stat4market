@@ -1,9 +1,9 @@
 .container {
-    max-width: 1110px;
+    max-width: 1530px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0;
     box-sizing: border-box;
-    @include for-tablet-large {
-        max-width: 100%;
-    }
+    // @include for-tablet-large {
+    //     max-width: 100%;
+    // }
 }
