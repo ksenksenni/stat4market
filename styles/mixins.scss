@@ -4,12 +4,6 @@
     }
 }
 
-@mixin for-tablet-large {
-    @media (max-width: $breakpoints-tablet-large) {
-        @content;
-    }
-}
-
 @mixin for-tablet {
     @media (max-width: $breakpoints-tablet) {
         @content;

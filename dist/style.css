@@ -40,6 +40,19 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+@media (max-width: 1280px) {
+  .container {
+    max-width: 100%;
+    margin-left: 40px;
+    margin-right: 72px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
 
 .features {
   margin-bottom: 131px;

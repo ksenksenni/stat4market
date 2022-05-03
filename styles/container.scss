@@ -3,7 +3,13 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    // @include for-tablet-large {
-    //     max-width: 100%;
-    // }
+    @include for-dasctop-small {
+        max-width: 100%;
+        margin-left: 40px;
+        margin-right: 72px;
+    }
+    @include for-tablet {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }
