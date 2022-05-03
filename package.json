@@ -1,0 +1,26 @@
+{
+    "name": "stat4market.git",
+    "version": "1.0.0",
+    "description": "test project",
+    "scripts": {
+        "build": "gulp compileSass",
+        "watch": "gulp compileSass && gulp watchSass"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ksenksenni/stat4market.git"
+    },
+    "author": "nikolaevaksa@gmail.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "git+https://github.com/ksenksenni/stat4market.git"
+    },
+    "homepage": "git+https://github.com/ksenksenni/stat4market.git",
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-minify-css": "^1.2.4",
+        "gulp-rimraf": "^1.0.0",
+        "gulp-sass": "^5.1.0",
+        "sass": "^1.50.1"
+    }
+}
