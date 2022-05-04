@@ -20,9 +20,9 @@
 
         <ul>
             <li><a href="#">Аналитика</a></li>
-            <ul>
+            <!-- <ul>
                 <li><a href="#">Аналитика 2 уровень</a></li>
-            </ul>
+            </ul> -->
             <li><a href="#">Обучение</a></li>
         </ul>
 
@@ -31,16 +31,16 @@
         <button>Войти</button>
     </header>
 
-    <section>
-        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a itemprop="item" href="#">
+    <section class="breadcrumb">
+        <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb__list">
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb__item">
+                <a itemprop="item" href="#" class="breadcrumb__item_link">
                     <span itemprop="name">Главная</span></a>
                 <meta itemprop="position" content="1" />
             </li>
 
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a itemprop="item" href="#">
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb__item">
+                <a itemprop="item" href="#" class="breadcrumb__item_link">
                     <span itemprop="name">Обучение</span></a>
                 <meta itemprop="position" content="2" />
             </li>

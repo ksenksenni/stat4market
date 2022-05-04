@@ -1,0 +1,30 @@
+.breadcrumb__list {
+    list-style: none;
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.breadcrumb__item {
+    margin-left: 5px;
+}
+
+.breadcrumb__item:first-of-type {
+    margin-left: 0;
+}
+
+.breadcrumb__item::after {
+    content: "–";
+}
+
+.breadcrumb__item:last-of-type:after {
+    content: "";
+}
+
+.breadcrumb__item_link {
+    color: #331A2F;
+    opacity: 0.5;
+    font-size: 16px;
+    line-height: 19px;
+}
