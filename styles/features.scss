@@ -1,5 +1,8 @@
 .features {
     margin-bottom: 131px;
+    @include for-dasctop-small {
+        margin-right: 30px;
+    }
 }
 
 .features__title {
