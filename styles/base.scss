@@ -7,6 +7,9 @@ body {
     font-weight: normal;
     color: #331A2F;
     opacity: 0.8;
+    @include for-dasctop-small {
+        font-size: 20px;
+    }
 }
 
 .pink {
