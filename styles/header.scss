@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo-block {
+    display: flex;
+}
+
+.header__logo-block_link {
+    display: flex;
+    flex-direction: column;
+    margin-right: 19px;
+}
+
+.logo-block__link-4 {
+    width: 60px;
+    height: 30px;
+}
+
+.logo-block__link-text {
+    width: 163px;
+    height: 38px;
+    margin-left: 78px;
+}
+
+.header__logo-block_text {
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 25px;
+    border-left: 1px solid rgba(51, 26, 47, 0.5);
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.header__menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
