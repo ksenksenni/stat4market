@@ -12,4 +12,11 @@
         margin-left: 15px;
         margin-right: 15px;
     }
+    @include for-tablet {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    @include for-tablet {
+        margin-right: 0px;
+    }
 }

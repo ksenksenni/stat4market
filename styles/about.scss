@@ -46,6 +46,11 @@
         max-height: 362px;
         height: auto;
     }
+    @include for-tablet-large {
+        max-width: 270px;
+        max-height: 277px;
+        margin-right: 40px;
+    }
 }
 
 .item__image-statistics {
@@ -55,5 +60,18 @@
         max-width: 358px;
         max-height: 358px;
         height: auto;
+    }
+    @include for-tablet-large {
+        max-width: 270px;
+        max-height: 270px;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+}
+
+.desc__statistics-text {
+    @include for-tablet-large {
+        margin-top: 15px;
+        margin-bottom: 0;
     }
 }

@@ -69,6 +69,14 @@
     margin-right: 50px;
     @include for-dasctop-small {
         font-size: 18px;
+        margin-right: 40px;
+        margin-left: 10px;
+    }
+}
+
+.menu__link_last {
+    @include for-dasctop-small {
+        margin-right: 10px;
     }
 }
 
@@ -122,6 +130,7 @@
     opacity: 1;
     @include for-dasctop-small {
         font-size: 18px;
+        padding: 4px 32px 5px 66px;
     }
 }
 

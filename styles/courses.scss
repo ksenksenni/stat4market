@@ -68,4 +68,18 @@
         height: auto;
         margin-left: 31px;
     }
+    @include for-tablet {
+        display: none;
+    }
+}
+
+.courses__image-adaptive {
+    display: none;
+    @include for-tablet {
+        display: block;
+        max-width: 440px;
+        width: 100%;
+        max-height: 440px;
+        height: auto;
+    }
 }
