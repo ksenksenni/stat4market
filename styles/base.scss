@@ -16,34 +16,10 @@ body {
     color: #CF51CE;
 }
 
-// .visually-hidden {
-//     position: absolute;
-//     width: 1px;
-//     height: 1px;
-//     margin: -1px;
-//     border: 0;
-//     padding: 0;
-//     white-space: nowrap;
-//     clip-path: inset(100%);
-//     clip: rect(0 0 0 0);
-//     overflow: hidden;
-// }
-// .title-after {
-//     position: relative;
-//     font-family: 'Ubuntu', sans-serif;
-//     font-weight: bold;
-//     font-size: 32px;
-//     line-height: 38px;
-//     text-transform: uppercase;
-//     @include for-tablet-large {
-//         font-size: 16px;
-//         line-height: 19px;
-//     }
-// }
-// .title-after::after {
-//     content: "";
-//     position: absolute;
-//     background-repeat: no-repeat;
-//     width: 30px;
-//     height: 30px;
-// }
+.noshown {
+    display: none;
+}
+
+.shown {
+    display: block;
+}
