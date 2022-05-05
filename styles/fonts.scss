@@ -15,9 +15,17 @@
 }
 
 @font-face {
+    font-family: 'Lato-Medium';
+    src: url('../fonts/Lato-Medium.ttf');
+    src: url('../fonts/Lato-Medium.eot') format('embedded-opentype'), url('../fonts/Lato-Medium.woff2') format('woff2'), url('../fonts/Lato-Medium.woff') format('woff'), url('../fonts/Lato-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Lato-Regular';
     src: url('../fonts/Lato-Regular.ttf');
     src: url('../fonts/Lato-Regular.eot') format('embedded-opentype'), url('../fonts/Lato-Regular.woff2') format('woff2'), url('../fonts/Lato-Regular.woff') format('woff'), url('../fonts/Lato-Regular.ttf') format('truetype');
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
 }
