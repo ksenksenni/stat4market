@@ -78,7 +78,7 @@
 .features__item {
     position: relative;
     max-width: 290px;
-    padding-top: 125px;
+    // padding-top: 125px;
     @include for-dasctop-small {
         max-width: 226px;
         margin-right: 20px;
@@ -93,24 +93,16 @@
     }
 }
 
-.features__item::before {
-    content: "";
-    position: absolute;
-    background-repeat: no-repeat;
-    width: 95px;
-    height: 95px;
-    top: 0px;
-    left: -25px;
+.item_target_icon,
+.item_site_icon,
+.item_friends_icon,
+.item_creators_icon {
+    width: 110px;
+    height: 110px;
+    margin-left: -25px;
     @include for-dasctop-small {
         top: 10px;
     }
-    @include for-mobile {
-        left: calc(50% - 57px);
-    }
-}
-
-.item_target::before {
-    background-image: url(../img/icons/target.svg);
 }
 
 .item_site::before {

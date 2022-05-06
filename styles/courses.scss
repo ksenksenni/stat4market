@@ -36,7 +36,6 @@
 
 .courses__text_price {
     position: relative;
-    padding-left: 73px;
     margin-top: 0;
     margin-bottom: 20px;
     @include for-dasctop-small {
@@ -44,15 +43,11 @@
     }
 }
 
-.courses__text_price::before {
-    content: "";
-    position: absolute;
-    background-image: url(../img/icons/purse.svg);
-    background-repeat: no-repeat;
+.courses___price_icon {
     width: 48px;
-    height: 48px;
-    top: -3px;
-    left: 0px;
+    height: 47px;
+    vertical-align: middle;
+    margin-right: 15px;
 }
 
 .text__price_number {

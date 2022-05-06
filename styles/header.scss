@@ -24,24 +24,27 @@
 
 .logo-block__link-4 {
     width: 60px;
-    height: 30px;
     @include for-dasctop-small {
         width: 45px;
-        height: 23px;
     }
     @include for-mobile {
         width: 35px;
-        height: 14px;
+    }
+}
+
+.logo-block__link-text-container {
+    margin-top: -20px;
+    @include for-tablet {
+        margin-top: -10px;
+        width: 94px;
     }
 }
 
 .logo-block__link-text {
     width: 163px;
-    height: 38px;
     margin-left: 78px;
     @include for-dasctop-small {
         width: 126px;
-        height: 30px;
         margin-left: 60px;
         margin-top: -15px;
     }
@@ -50,8 +53,7 @@
     }
     @include for-mobile {
         width: 94px;
-        height: 22px;
-        margin-left: 45px;
+        margin-left: 30px;
     }
 }
 
@@ -147,10 +149,14 @@
     @include for-dasctop-small {
         font-size: 18px;
     }
+    @include for-tablet {
+        margin-left: 20px;
+    }
     @include for-mobile {
         font-size: 14px;
         line-height: 28px;
         padding: 4px 20px 4px 20px;
+        border-radius: 6px;
     }
 }
 
@@ -160,6 +166,19 @@
     vertical-align: -3px;
     @include for-tablet-large {
         vertical-align: -5px;
+    }
+    @include for-tablet {
+        display: none;
+    }
+}
+
+.header__btn_icon-mob {
+    display: none;
+    @include for-tablet {
+        display: inline;
+        width: 14px;
+        height: 14px;
+        vertical-align: -3px;
     }
 }
 
