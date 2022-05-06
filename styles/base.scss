@@ -7,8 +7,17 @@ body {
     font-weight: normal;
     color: #331A2F;
     opacity: 0.8;
+    background-image: url(../img/bg-purpur.svg), url(../img/bg-pink.svg);
+    background-repeat: no-repeat no-repeat;
+    background-position: right 450px, left top;
     @include for-dasctop-small {
         font-size: 20px;
+        background-image: url(../img/bg-pink-small.svg);
+        background-repeat: no-repeat;
+        background-position: left top;
+    }
+    @include for-tablet {
+        background-image: none;
     }
     @include for-mobile {
         font-size: 18px;
