@@ -197,15 +197,15 @@
         </div>
 
         <ul class="header__menu">
-            <li>
-                <a href="#" class="menu__link menu__link_list link">
+            <li class="link">
+                <a href="#" class="menu__link menu__link_list">
                     Аналитика
                     <svg class="menu__link_icon">
                         <use xlink:href="#arrow"></use>
                     </svg>
                 </a>
             </li>
-            <li><a href="#" class="menu__link menu__link_last link">Обучение</a></li>
+            <li class="link"><a href="#" class="menu__link menu__link_last">Обучение</a></li>
         </ul>
 
         <a href="tel:+74994503141" class="header__contact menu__link link">
@@ -227,23 +227,23 @@
         <button class="mobile-menu noshown link"><div class="mobile-menu__icon"></div></button>
 
         <nav class="mobile-menu__container">
-            <ul class="mobile-menu__list ">
-                <li class="mobile-menu__item"><a href="#" class="menu__link menu__link_list menu-item-link menu-link">Аналитика</a></li>
-                <li class="mobile-menu__item"><a href="#" class="menu__link menu__link_last menu-item-link menu-link">Обучение</a></li>
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item link"><a href="#" class="menu__link menu__link_list menu-item-link menu-link">Аналитика</a></li>
+                <li class="mobile-menu__item link"><a href="#" class="menu__link menu__link_last menu-item-link menu-link">Обучение</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="breadcrumb">
         <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb__list">
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb__item">
-                <a itemprop="item" href="#" class="breadcrumb__item_link link">
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb__item link">
+                <a itemprop="item" href="#" class="breadcrumb__item_link">
                     <span itemprop="name">Главная</span></a>
                 <meta itemprop="position" content="1" />
             </li>
 
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb__item">
-                <a itemprop="item" href="#" class="breadcrumb__item_link link">
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb__item link">
+                <a itemprop="item" href="#" class="breadcrumb__item_link">
                     <span itemprop="name">Обучение</span></a>
                 <meta itemprop="position" content="2" />
             </li>
@@ -343,7 +343,6 @@
         </section>
     </main>
 
-    <script src="mobile-menu.js"></script>
 </body>
 
 </html>

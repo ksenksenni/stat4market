@@ -78,7 +78,6 @@
 .features__item {
     position: relative;
     max-width: 290px;
-    // padding-top: 125px;
     @include for-dasctop-small {
         max-width: 226px;
         margin-right: 20px;
