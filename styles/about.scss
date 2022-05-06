@@ -68,8 +68,8 @@
             height: auto;
         }
         @include for-tablet-large {
-            max-width: 270px;
-            max-height: 277px;
+            width: 270px;
+            height: 277px;
             margin-right: 40px;
         }
         @include for-mobile {
@@ -86,8 +86,8 @@
             height: auto;
         }
         @include for-tablet-large {
-            max-width: 270px;
-            max-height: 270px;
+            width: 270px;
+            height: 270px;
             margin-left: 40px;
             margin-top: 50px;
         }

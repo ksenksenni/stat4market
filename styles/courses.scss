@@ -72,16 +72,18 @@
 
 .courses__image {
     max-width: 620px;
-    width: 100%;
     max-height: 604px;
     height: auto;
     margin-left: 42px;
     @include for-dasctop-small {
         max-width: 458px;
-        width: 100%;
         max-height: 459px;
         height: auto;
         margin-left: 31px;
+    }
+    @include for-tablet-big {
+        max-width: 285px;
+        margin-left: 15px;
     }
     @include for-tablet {
         display: none;

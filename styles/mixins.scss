@@ -10,6 +10,12 @@
     }
 }
 
+@mixin for-tablet-big {
+    @media (max-width: $breakpoints-tablet-big) {
+        @content;
+    }
+}
+
 @mixin for-tablet {
     @media (max-width: $breakpoints-tablet) {
         @content;

@@ -84,23 +84,14 @@ body {
     max-width: 100%;
     margin-left: 40px;
     margin-right: 40px;
+    padding-right: 0;
   }
 }
 @media (max-width: 768px) {
   .container {
     margin-left: 15px;
-    margin-right: 15px;
-  }
-}
-@media (max-width: 768px) {
-  .container {
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-}
-@media (max-width: 768px) {
-  .container {
-    margin-right: 0px;
+    margin-right: 0;
+    padding-right: 0;
   }
 }
 
@@ -547,7 +538,6 @@ body {
 
 .courses__image {
   max-width: 620px;
-  width: 100%;
   max-height: 604px;
   height: auto;
   margin-left: 42px;
@@ -555,10 +545,15 @@ body {
 @media (max-width: 1280px) {
   .courses__image {
     max-width: 458px;
-    width: 100%;
     max-height: 459px;
     height: auto;
     margin-left: 31px;
+  }
+}
+@media (max-width: 975px) {
+  .courses__image {
+    max-width: 285px;
+    margin-left: 15px;
   }
 }
 @media (max-width: 768px) {
@@ -674,8 +669,8 @@ body {
 }
 @media (max-width: 1100px) {
   .item__image-smartphote {
-    max-width: 270px;
-    max-height: 277px;
+    width: 270px;
+    height: 277px;
     margin-right: 40px;
   }
 }
@@ -698,8 +693,8 @@ body {
 }
 @media (max-width: 1100px) {
   .item__image-statistics {
-    max-width: 270px;
-    max-height: 270px;
+    width: 270px;
+    height: 270px;
     margin-left: 40px;
     margin-top: 50px;
   }
