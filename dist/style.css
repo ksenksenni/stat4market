@@ -729,6 +729,9 @@ body {
 
 .features__title_border {
   position: relative;
+  display: inline-block;
+  color: #331A2F;
+  text-decoration: none;
 }
 
 .features__title_border::after {
