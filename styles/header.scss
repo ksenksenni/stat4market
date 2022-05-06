@@ -112,21 +112,13 @@
 
 .menu__link_list {
     position: relative;
-    margin-right: 70px;
+    margin-right: 50px;
 }
 
-.menu__link_list::after {
-    content: "";
-    position: absolute;
-    background-image: url(../img/icons/arrow.svg);
-    background-repeat: no-repeat;
+.menu__link_icon {
     width: 13px;
     height: 12px;
-    top: 11px;
-    right: -23px;
-    @include for-dasctop-small {
-        top: 5px;
-    }
+    vertical-align: -3px;
 }
 
 .header__contact {
@@ -135,15 +127,10 @@
     padding-left: 25px;
 }
 
-.header__contact::before {
-    content: "";
-    position: absolute;
-    background-image: url(../img/icons/tel.svg);
-    background-repeat: no-repeat;
-    width: 19px;
+.header__contact_icon {
+    width: 20px;
     height: 19px;
-    top: 7px;
-    left: -5px;
+    vertical-align: -3px;
 }
 
 .header__btn {
@@ -151,7 +138,7 @@
     background-color: #CF51CE;
     border: none;
     border-radius: 12px;
-    padding: 4px 32px 5px 69px;
+    padding: 4px 32px 5px 32px;
     font-family: 'Lato-Medium', sans-serif;
     font-size: 23px;
     line-height: 35px;
@@ -159,31 +146,20 @@
     opacity: 1;
     @include for-dasctop-small {
         font-size: 18px;
-        padding: 4px 32px 5px 66px;
     }
     @include for-mobile {
         font-size: 14px;
         line-height: 28px;
-        padding: 4px 20px 4px 40px;
+        padding: 4px 20px 4px 20px;
     }
 }
 
-.header__btn::before {
-    content: "";
-    position: absolute;
-    background-image: url(../img/icons/enter.svg);
-    background-repeat: no-repeat;
+.header__btn_icon {
     width: 23px;
     height: 23px;
-    top: 10px;
-    left: 35px;
-    @include for-mobile {
-        background-image: url(../img/icons/enter-mob.svg);
-        background-repeat: no-repeat;
-        width: 13.5px;
-        height: 13.5px;
-        top: 12px;
-        left: 22px;
+    vertical-align: -3px;
+    @include for-tablet-large {
+        vertical-align: -5px;
     }
 }
 
