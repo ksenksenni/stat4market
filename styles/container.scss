@@ -2,6 +2,8 @@
     max-width: 1530px;
     margin: 0 auto;
     padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
     box-sizing: border-box;
     @include for-dasctop-small {
         max-width: 100%;

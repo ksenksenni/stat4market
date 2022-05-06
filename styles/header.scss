@@ -4,6 +4,9 @@
     align-items: center;
     margin-top: 23px;
     margin-bottom: 66px;
+    @include for-mobile {
+        margin-bottom: 40px;
+    }
 }
 
 .header__logo-block {
@@ -26,6 +29,10 @@
         width: 45px;
         height: 23px;
     }
+    @include for-mobile {
+        width: 35px;
+        height: 14px;
+    }
 }
 
 .logo-block__link-text {
@@ -40,6 +47,11 @@
     }
     @include for-tablet {
         margin-top: 0px;
+    }
+    @include for-mobile {
+        width: 94px;
+        height: 22px;
+        margin-left: 45px;
     }
 }
 
@@ -58,6 +70,9 @@
     }
     @include for-tablet {
         line-height: 14px;
+    }
+    @include for-mobile {
+        display: none;
     }
 }
 
@@ -140,12 +155,16 @@
     font-family: 'Lato-Medium', sans-serif;
     font-size: 23px;
     line-height: 35px;
-    font-weight: normal;
     color: #ffffff;
     opacity: 1;
     @include for-dasctop-small {
         font-size: 18px;
         padding: 4px 32px 5px 66px;
+    }
+    @include for-mobile {
+        font-size: 14px;
+        line-height: 28px;
+        padding: 4px 20px 4px 40px;
     }
 }
 
@@ -158,6 +177,14 @@
     height: 23px;
     top: 10px;
     left: 35px;
+    @include for-mobile {
+        background-image: url(../img/icons/enter-mob.svg);
+        background-repeat: no-repeat;
+        width: 13.5px;
+        height: 13.5px;
+        top: 12px;
+        left: 22px;
+    }
 }
 
 .mobile-menu__container {

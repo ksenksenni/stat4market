@@ -10,6 +10,9 @@ body {
     @include for-dasctop-small {
         font-size: 20px;
     }
+    @include for-mobile {
+        font-size: 18px;
+    }
 }
 
 .pink {
